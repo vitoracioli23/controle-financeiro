@@ -22,4 +22,4 @@ Projeto desenvolvido para praticar lógica de programação, manipulação de DO
 
 ## 🌎 Deploy
 
-Projeto publicado via GitHub Pages.
+https://vitoracioli23.github.io/controle-financeiro/
