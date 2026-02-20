@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Controle Financeiro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Controle Financeiro</h1>
+
+    <h2>Saldo: R$ <span id="balance">0.00</span></h2>
+
+    <form id="form">
+      <input type="text" id="description" placeholder="Descrição" required>
+      <input type="number" id="amount" placeholder="Valor (negativo para despesa)" required>
+      <button type="submit">Adicionar</button>
+    </form>
+
+    <ul id="list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
